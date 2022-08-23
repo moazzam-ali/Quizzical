@@ -1,0 +1,10 @@
+html{
+    font-size: 10px;
+    box-sizing: border-box;
+    font-family: Karla;
+}
+
+*, *::after, *::before{
+    margin: 0;
+    padding: 0;
+}

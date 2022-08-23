@@ -1,0 +1,18 @@
+.question{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    &--statement{
+        margin-bottom: 2rem;
+        overflow-wrap: break-word;
+        color: #293264;
+    }
+
+    &--choice{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5rem;
+
+    }
+}
